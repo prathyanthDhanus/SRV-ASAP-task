@@ -1,0 +1,86 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(255, 228, 196, 0.153);
+    
+  }
+
+
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .nav-logo img {
+    width: 170px;
+    height: 120px;
+    margin-left: 4rem;
+    /* background-color: blue; */
+  }
+  
+  .nav-details {
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: brown; */
+    padding-top: 3rem;
+    padding-right: 3rem;
+  }
+  
+  .nav-details h4 {
+    margin: 0 10px;
+    cursor: pointer;
+  }
+
+  .nav-login{
+    border: 1px solid black;
+    width: 5rem;
+    text-align: center;
+    height: 2.5rem;
+    border-radius: 4px;
+    
+  }
+  
+  .nav-getstart {
+    background-color: #f47311;
+    
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 2rem;
+    width: 7rem;
+    text-align: center;
+   
+  }
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .nav-logo img {
+      width: 70px;
+      height: 70px;
+    }
+  
+    .nav-details h4 {
+      font-size: 14px;
+    }
+  
+    .nav-getstart {
+      padding: 5px 15px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .nav-logo img {
+      width: 50px;
+      height: 50px;
+    }
+  
+    .nav-details h4 {
+      font-size: 12px;
+    }
+  
+    .nav-getstart {
+      padding: 5px 10px;
+    }
+  }

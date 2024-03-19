@@ -1,0 +1,156 @@
+.overview-container {
+    background-color: #fff;
+    border-radius: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 40%;
+    
+  }
+  
+  .duration {
+    display: flex;
+    margin-top: 2rem;
+    width: 45%;
+    padding-left: 1rem;
+    align-items: center;
+    /* background-color: chartreuse; */
+  }
+  
+  .duration-clockicon {
+    margin-right: -2.5rem;
+    font-size: 1.5rem;
+    color: rgb(255, 106, 0);
+  }
+  
+  .duration-title {
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-right: 1rem;
+    color: #757575;
+    margin-left: 3rem;
+  }
+  
+  .duration-value {
+    font-size: 1rem;
+    margin-left: 3rem;
+    margin-top: -1.5rem;
+  }
+  
+  .course {
+    display: flex;
+    width: 45%;
+    padding-left: 1rem;
+    align-items: center;
+    /* background-color: brown; */
+    padding-top: 2rem;
+  }
+  
+  .course-vdoicon {
+    margin-right: -2.5rem;
+    font-size: 1.8rem;
+    color: rgb(255, 106, 0);
+  }
+  
+  .course-title {
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-right: 1rem;
+    color: #757575;
+    margin-left: 3rem;
+  }
+  
+  .course-value {
+    font-size: 1rem;
+    margin-left: 3rem;
+    margin-top: -1.5rem;
+  }
+
+
+  .eligibility{
+    display: flex;
+    margin-top: 2rem;
+    width: 100%;
+    padding-left: 1rem;
+    align-items: center;
+   
+    margin-top: -1rem;
+  }
+
+  .eligibility-icon {
+    margin-right: -2.5rem;
+    font-size: 1.5rem;
+    color: rgb(255, 106, 0);
+  }
+  
+  .eligibility-title {
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-right: 1rem;
+    color: #757575;
+    margin-left: 3rem;
+  }
+  
+  .eligibility-value {
+    font-size: 1rem;
+    margin-left: 3rem;
+    margin-top: -1.5rem;
+  }
+
+  .training {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 1rem;
+    /* background-color: brown; */
+  }
+  
+.training h3{
+    font-weight: bolder;
+    font-size: 1rem;
+    color: #757575;
+}
+
+  .training-icons {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    gap: 2rem;
+    margin-left: 1rem;
+    margin-top: -1rem;
+    
+  }
+  
+  .training-icons img {
+    width: 100px;
+    height: auto;
+  }
+ 
+.certificate {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+
+  .certificate h3{
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-left: 1rem;
+    color: #757575;
+  }
+  
+  .certificate-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    margin-top: 10px;
+    
+  }
+  
+  .certificate-icons img {
+    width: 6rem;
+    height: 5rem;
+    object-fit: contain;
+    margin-top: -2rem;
+  }
