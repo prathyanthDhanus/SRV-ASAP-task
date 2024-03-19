@@ -1,0 +1,74 @@
+.wallet-icon{
+    color: rgb(255, 106, 0);
+   width: 3rem;
+    height: 4rem;   
+    padding-left: 1.5rem;
+}
+
+.course-fee-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    box-sizing: border-box   ;
+    width: 20%;
+    height: 5rem;
+    /* background-color: blue; */
+    
+  }
+  
+  .wallet-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    /* background-color: blue; */
+  }
+  
+  .total-amount {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 1rem;
+  }
+  
+  .total-amount p {
+    margin: 0;
+  }
+  
+  .total-amount h2 {
+    margin: 0;
+    margin-top: 0.5rem;
+    margin-top: -0.2rem;
+  }
+  .vertical-rule {
+    border-left: 1px solid black;
+    height: 50px;
+    margin: 0 1rem;
+  }
+  
+ 
+
+  .installation-plan {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    
+  }
+
+
+  
+  .installment-item {
+    display: flex;
+    align-items: center;
+    margin: -0.5rem;
+  }
+  
+  .checkmark-icon {
+    margin-right: 0.8rem;
+    margin-bottom: 1rem;
+  }

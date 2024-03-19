@@ -1,16 +1,12 @@
-.syllabus-item{
+.syllabus-item {
+    height: auto;
+    border-radius: 4px;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+  }
   
-  
-  height: auto;
-  border-radius: 4px;
-  padding: 0.5rem;
-  box-sizing: border-box;
-  margin-bottom: 1rem;
-  
- 
-}
-
-.syllabus-title {
+  .syllabus-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,25 +15,38 @@
     width: 40%;
     padding: 0.5rem;
     box-sizing: border-box;
-    border-radius: 0.5rem ;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
   }
-
-.syllabus-description{
+  
+  .syllabus-description {
     border: 1px solid black;
     border-top: none;
     width: 39.9%;
     height: auto;
     padding-top: 1rem;
     border-radius: 0 0 0.5rem 0.5rem;
-    
-}
-
-.syllabus-title.selected {
-    background-color: bisque; /* Change background color to blue when selected */
-    border-radius:  0.5rem 0.5rem 0 0;
   }
   
-.syllabus-description.selected {
-    background-color: bisque; /* Change background color of selected description */
-    
+  .syllabus-title.selected {
+    background-color: rgba(255, 228, 196, 0.409);
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+  
+  .syllabus-description.selected {
+    background-color: rgba(255, 228, 196, 0.409);
+  }
+  
+  .sentence-container {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .checkmark-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+    color: rgb(255, 106, 0);
+    margin-top: 1.2rem;
+    margin-left: 1rem;
   }

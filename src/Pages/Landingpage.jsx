@@ -3,6 +3,7 @@ import Navbar from '../Components/Navbar/Navbar';
 import Home from './Home/Home';
 import Overviews from '../Components/Overview/Overviews';
 import Syllabus from '../Components/Syllabus/Syllabus';
+import Coursefee from '../Components/Coursefee/Coursefee';
 
 
 const Landingpage = () => {
@@ -12,6 +13,7 @@ const Landingpage = () => {
   <Home/>
   <Overviews/>
   <Syllabus/>
+  <Coursefee/>
     </div>
   )
 }
