@@ -1,0 +1,43 @@
+.syllabus-item{
+  
+  
+  height: auto;
+  border-radius: 4px;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  
+ 
+}
+
+.syllabus-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid black;
+    width: 40%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    border-radius: 0.5rem ;
+  }
+
+.syllabus-description{
+    border: 1px solid black;
+    border-top: none;
+    width: 39.9%;
+    height: auto;
+    padding-top: 1rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+    
+}
+
+.syllabus-title.selected {
+    background-color: bisque; /* Change background color to blue when selected */
+    border-radius:  0.5rem 0.5rem 0 0;
+  }
+  
+.syllabus-description.selected {
+    background-color: bisque; /* Change background color of selected description */
+    
+  }
